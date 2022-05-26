@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+    border:2px solid rgb(233, 147, 147);
+    border-radius: 20px;
+    background-color: #11000d;
+    color: whitesmoke;
+  }
+  

@@ -1,0 +1,14 @@
+<div *ngIf="selected">
+<mat-card class="example-card" (click)="onSelect(person.id)"*ngFor="let person of people;let i=index"  >
+    <img mat-card-image src="{{person.avatar}}"  alt="Photo of a Shiba Inu" style="margin: auto; border-radius: 232px;margin: auto;width: 125px;">
+    <mat-card-content>
+      <p>
+          First: {{person.first_name}}
+          <br>
+          last: {{person.last_name}}
+          <br>
+          email: {{person.email}}
+       </p>
+    </mat-card-content>
+</mat-card>
+</div>
